@@ -12,6 +12,9 @@ def run_bronze_job(spark):
         spark.read.format("csv")
         .option("header", True)
         .schema(trip_schema())
+        .load(SOURCE_FILE)
     )
+
+    df.write.mode("overwrite").parquet(BRONZE_PATH)
 
     return df
