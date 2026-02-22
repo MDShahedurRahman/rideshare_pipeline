@@ -17,4 +17,5 @@ def run_silver_job(spark):
                     (col("distance_km") / col("duration_min")) * 60)
     )
 
+    transformed.write.mode("overwrite").parquet(SILVER_PATH)
     return transformed
