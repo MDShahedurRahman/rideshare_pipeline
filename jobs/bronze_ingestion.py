@@ -4,4 +4,15 @@ from config import SOURCE_FILE, BRONZE_PATH
 
 
 def run_bronze_job(spark):
+    print("Running Bronze Ingestion...")
+
+    ensure_dir(BRONZE_PATH)
+
+    df = (
+        spark.read.format("csv")
+        .option("header", True)
+        .schema(trip_schema())
+        .load(SOURCE_FILE)
+    )
+
     return df
