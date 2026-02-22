@@ -13,6 +13,7 @@ def run_surge_detection(spark):
     flagged = df.withColumn(
         "surge_flag",
         when(col("fare_amount") > 100, "HIGH_SURGE")
+        .otherwise("NORMAL")
     )
 
     return flagged
