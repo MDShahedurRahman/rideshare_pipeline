@@ -1,0 +1,6 @@
+trip_id,driver_id,driver_name,rider_id,city,distance_km,duration_min,fare_amount,trip_date,payment_method
+1,D001,John Smith,R001,New York,10,20,35,2025-01-05,Credit Card
+2,D002,Amina Rahman,R002,Boston,25,40,120,2025-01-06,PayPal
+3,D003,Sarah Lee,R003,Chicago,8,15,22,2025-01-08,Cash
+4,D001,John Smith,R004,New York,50,60,180,2025-01-10,Credit Card
+5,D004,Raj Patel,R005,Dallas,5,10,15,2025-01-12,Debit Card
