@@ -18,4 +18,6 @@ def run_silver_job(spark):
     )
 
     transformed.write.mode("overwrite").parquet(SILVER_PATH)
+
+    print("Silver Layer Completed.")
     return transformed
