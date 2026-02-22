@@ -11,7 +11,8 @@ def run_surge_detection(spark):
     df = spark.read.parquet(SILVER_PATH)
 
     flagged = df.withColumn(
-        "surge_flag"
+        "surge_flag",
+        when(col("fare_amount") > 100, "HIGH_SURGE")
     )
 
     return flagged
