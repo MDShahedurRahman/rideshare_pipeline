@@ -12,6 +12,7 @@ def run_silver_job(spark):
 
     transformed = (
         df.dropDuplicates(["trip_id"])
+        .withColumn("trip_date", to_date(col("trip_date"), "yyyy-MM-dd"))
     )
 
     return transformed
