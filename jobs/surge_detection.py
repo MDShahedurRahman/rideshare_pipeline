@@ -16,4 +16,6 @@ def run_surge_detection(spark):
         .otherwise("NORMAL")
     )
 
+    flagged.write.mode("overwrite").parquet(SURGE_PATH)
+
     return flagged
