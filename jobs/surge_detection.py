@@ -18,4 +18,5 @@ def run_surge_detection(spark):
 
     flagged.write.mode("overwrite").parquet(SURGE_PATH)
 
+    print("Surge Detection Completed.")
     return flagged
