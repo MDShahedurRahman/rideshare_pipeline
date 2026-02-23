@@ -31,3 +31,6 @@ def run_gold_job(spark):
     )
 
     dim_driver.write.mode("overwrite").parquet(GOLD_PATH + "dim_driver/")
+    dim_rider.write.mode("overwrite").parquet(GOLD_PATH + "dim_rider/")
+
+    print("Gold Layer Completed.")
