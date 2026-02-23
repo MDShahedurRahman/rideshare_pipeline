@@ -32,3 +32,13 @@ Gold Layer (Star Schema)\
 Business KPI Reports
 
 ------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+-   Python 3.9+
+-   PySpark 3.5
+-   Parquet (Data Lake format)
+-   CSV (Raw data)
+-   Local file system storage
+
+------------------------------------------------------------------------
