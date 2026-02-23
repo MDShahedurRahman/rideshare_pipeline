@@ -12,3 +12,7 @@ def run_gold_job(spark):
     dim_driver = df.select(
         "driver_id", "driver_name", "city"
     ).dropDuplicates()
+
+    dim_rider = df.select(
+        "rider_id"
+    ).dropDuplicates()
