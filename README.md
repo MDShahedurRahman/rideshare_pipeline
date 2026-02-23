@@ -133,3 +133,19 @@ fact_trips\
 - surge_flag
 
 ------------------------------------------------------------------------
+
+## 🔥 Why This Project Matters
+
+This project demonstrates:
+
+-   Layered Data Lake architecture\
+-   Star schema modeling\
+-   Data quality transformations\
+-   Business KPI generation\
+-   Modular PySpark job design\
+-   Clean project structure for production readiness
+
+It reflects patterns used in real ride-sharing and mobility data
+platforms.
+
+------------------------------------------------------------------------
