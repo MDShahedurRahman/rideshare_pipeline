@@ -15,3 +15,5 @@ def run_kpi_job(spark):
         .agg(sum("fare_amount").alias("total_revenue"))
         .orderBy(desc("total_revenue"))
     )
+
+    revenue_by_city.show()
