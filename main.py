@@ -14,6 +14,10 @@ def main():
     run_silver_job(spark)
     run_surge_detection(spark)
     run_gold_job(spark)
+    run_kpi_job(spark)
+
+    spark.stop()
+    print("RideShare Pipeline Completed Successfully!")
 
 
 if __name__ == "__main__":
