@@ -22,3 +22,5 @@ def run_kpi_job(spark):
         REPORT_PATH + "revenue_by_payment/",
         header=True
     )
+
+    print("KPI Reports Generated.")
