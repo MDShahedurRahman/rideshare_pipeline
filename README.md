@@ -18,7 +18,7 @@ production-style batch pipelines.
 ------------------------------------------------------------------------
 
 ## 🏗 Architecture
-
+```
 Raw CSV Data\
 ↓\
 Bronze Layer (Raw Ingestion)\
@@ -30,7 +30,7 @@ Surge Detection Layer\
 Gold Layer (Star Schema)\
 ↓\
 Business KPI Reports
-
+```
 ------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
