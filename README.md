@@ -171,4 +171,4 @@ demonstrate batch processing, data modeling, and PySpark expertise.
 
 ## 📄 License
 
-This project is open for learning and portfolio demonstration purposes.
+This project is open for learning and portfolio demonstration purposes @2026
