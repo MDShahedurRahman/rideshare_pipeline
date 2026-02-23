@@ -93,3 +93,15 @@ Pipeline will execute:
 -   KPI generation
 
 ------------------------------------------------------------------------
+
+## 📊 Business KPIs Generated
+
+-   Total revenue by payment method\
+-   Surge ride identification\
+-   Driver-level and rider-level dimensional modeling
+
+Reports are saved in:
+
+output/reports/
+
+------------------------------------------------------------------------
