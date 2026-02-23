@@ -29,3 +29,5 @@ def run_gold_job(spark):
         "payment_method",
         "surge_flag"
     )
+
+    dim_driver.write.mode("overwrite").parquet(GOLD_PATH + "dim_driver/")
