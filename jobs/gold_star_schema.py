@@ -8,3 +8,7 @@ def run_gold_job(spark):
     ensure_dir(GOLD_PATH)
 
     df = spark.read.parquet(SURGE_PATH)
+
+    dim_driver = df.select(
+        "driver_id", "driver_name", "city"
+    ).dropDuplicates()
