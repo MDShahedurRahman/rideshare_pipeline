@@ -42,3 +42,34 @@ Business KPI Reports
 -   Local file system storage
 
 ------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+rideshare_pipeline/
+
+├── main.py\
+├── config.py\
+├── requirements.txt
+
+├── data/\
+│ └── trips.csv
+
+├── jobs/\
+│ ├── bronze_ingestion.py\
+│ ├── silver_transformation.py\
+│ ├── surge_detection.py\
+│ ├── gold_star_schema.py\
+│ └── business_kpis.py
+
+├── utils/\
+│ ├── spark_session.py\
+│ ├── schema.py\
+│ └── helpers.py
+
+└── output/\
+├── bronze/\
+├── silver/\
+├── gold/\
+└── reports/
+
+------------------------------------------------------------------------
