@@ -105,3 +105,31 @@ Reports are saved in:
 output/reports/
 
 ------------------------------------------------------------------------
+
+## 🧠 Data Model (Gold Layer)
+
+### Dimension Tables
+
+dim_driver\
+- driver_id\
+- driver_name\
+- city
+
+dim_rider\
+- rider_id
+
+### Fact Table
+
+fact_trips\
+- trip_id\
+- driver_id\
+- rider_id\
+- distance_km\
+- duration_min\
+- fare_amount\
+- avg_speed_kmh\
+- trip_date\
+- payment_method\
+- surge_flag
+
+------------------------------------------------------------------------
