@@ -16,3 +16,19 @@ This project is designed for data engineering portfolios and mirrors
 production-style batch pipelines.
 
 ------------------------------------------------------------------------
+
+## 🏗 Architecture
+
+Raw CSV Data\
+↓\
+Bronze Layer (Raw Ingestion)\
+↓\
+Silver Layer (Cleaned + Enriched)\
+↓\
+Surge Detection Layer\
+↓\
+Gold Layer (Star Schema)\
+↓\
+Business KPI Reports
+
+------------------------------------------------------------------------
