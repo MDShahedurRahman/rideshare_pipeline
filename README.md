@@ -51,7 +51,7 @@ rideshare_pipeline/
 ├── config.py\
 ├── requirements.txt
 
-├── data/\
+├── data/
 │ └── trips.csv
 
 ├── jobs/
