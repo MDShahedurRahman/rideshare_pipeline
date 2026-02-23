@@ -161,3 +161,14 @@ platforms.
 -   Containerize using Docker
 
 ------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Built as a professional Data Engineering portfolio project to
+demonstrate batch processing, data modeling, and PySpark expertise.
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+This project is open for learning and portfolio demonstration purposes.
