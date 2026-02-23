@@ -54,11 +54,11 @@ rideshare_pipeline/
 ├── data/\
 │ └── trips.csv
 
-├── jobs/\
-│ ├── bronze_ingestion.py\
-│ ├── silver_transformation.py\
-│ ├── surge_detection.py\
-│ ├── gold_star_schema.py\
+├── jobs/
+│ ├── bronze_ingestion.py
+│ ├── silver_transformation.py
+│ ├── surge_detection.py
+│ ├── gold_star_schema.py
 │ └── business_kpis.py
 
 ├── utils/
