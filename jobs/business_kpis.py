@@ -17,3 +17,8 @@ def run_kpi_job(spark):
     )
 
     revenue_by_city.show()
+
+    revenue_by_city.write.mode("overwrite").csv(
+        REPORT_PATH + "revenue_by_payment/",
+        header=True
+    )
