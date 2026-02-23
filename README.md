@@ -44,7 +44,7 @@ Business KPI Reports
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
-
+```
 rideshare_pipeline/
 
 ├── main.py\
@@ -71,7 +71,7 @@ rideshare_pipeline/
 ├── silver/\
 ├── gold/\
 └── reports/
-
+```
 ------------------------------------------------------------------------
 
 ## 🚀 How to Run
