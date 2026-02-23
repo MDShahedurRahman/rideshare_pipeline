@@ -73,3 +73,23 @@ rideshare_pipeline/
 └── reports/
 ```
 ------------------------------------------------------------------------
+
+## 🚀 How to Run
+
+### 1️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+### 2️⃣ Run the Pipeline
+
+python main.py
+
+Pipeline will execute:
+
+-   Bronze ingestion\
+-   Silver transformation\
+-   Surge detection\
+-   Gold modeling\
+-   KPI generation
+
+------------------------------------------------------------------------
