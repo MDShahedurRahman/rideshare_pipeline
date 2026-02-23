@@ -149,3 +149,15 @@ It reflects patterns used in real ride-sharing and mobility data
 platforms.
 
 ------------------------------------------------------------------------
+
+## 📈 Future Improvements
+
+-   Add partitioning by date and city\
+-   Introduce Delta Lake support\
+-   Integrate with AWS S3\
+-   Add Airflow orchestration\
+-   Implement streaming with Kafka\
+-   Add automated data quality checks\
+-   Containerize using Docker
+
+------------------------------------------------------------------------
