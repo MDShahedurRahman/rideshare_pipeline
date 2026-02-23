@@ -61,9 +61,9 @@ rideshare_pipeline/
 │ ├── gold_star_schema.py\
 │ └── business_kpis.py
 
-├── utils/\
-│ ├── spark_session.py\
-│ ├── schema.py\
+├── utils/
+│ ├── spark_session.py
+│ ├── schema.py
 │ └── helpers.py
 
 └── output/
