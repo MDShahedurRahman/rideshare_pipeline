@@ -47,7 +47,7 @@ Business KPI Reports
 ```
 rideshare_pipeline/
 
-├── main.py\
+├── main.py
 ├── config.py
 ├── requirements.txt
 
