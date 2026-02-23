@@ -18,7 +18,7 @@ production-style batch pipelines.
 ------------------------------------------------------------------------
 
 ## 🏗 Architecture
-
+```
 Raw CSV Data\
 ↓\
 Bronze Layer (Raw Ingestion)\
@@ -30,7 +30,7 @@ Surge Detection Layer\
 Gold Layer (Star Schema)\
 ↓\
 Business KPI Reports
-
+```
 ------------------------------------------------------------------------
 
 ## 🛠 Tech Stack
@@ -44,7 +44,7 @@ Business KPI Reports
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
-
+```
 rideshare_pipeline/
 
 ├── main.py\
@@ -71,5 +71,5 @@ rideshare_pipeline/
 ├── silver/\
 ├── gold/\
 └── reports/
-
+```
 ------------------------------------------------------------------------
